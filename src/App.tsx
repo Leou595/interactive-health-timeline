@@ -152,7 +152,7 @@ function eventSearchText(event: TimelineEvent) {
 function App() {
   const defaultEvent = timelineEvents.find((event) => event.id === 'chf-worsening') ?? timelineEvents[0];
   const [selectedEventId, setSelectedEventId] = useState(defaultEvent.id);
-  const [rangeDays, setRangeDays] = useState(90);
+  const [rangeDays, setRangeDays] = useState(365);
   const [activeCategories, setActiveCategories] = useState<Set<EventCategory>>(new Set(categories));
   const [query, setQuery] = useState('');
   const [isDetailOpen, setIsDetailOpen] = useState(false);
