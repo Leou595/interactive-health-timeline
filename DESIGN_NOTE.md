@@ -6,13 +6,13 @@ The goal was to design a simplified interactive visualization that helps a physi
 
 The interface is designed to support rapid pre-visit orientation: helping a physician quickly understand who the patient is, what changed recently, what risks are emerging, and what may need attention during today's visit.
 
-## 2. Product Context: Older Adult Care
+## 2. Key Assumptions and Product Context: Older Adult Care
 
 This prototype is designed in the broader context of care for adults aged 65+, and uses a high-risk Medicare Advantage patient as a representative complex scenario.
 
-Timeline visualization is valuable in older adult care because physicians often need to reconstruct a story across multimorbidity, chronic disease burden, fragmented care settings, medications and adherence, care gaps, post-discharge vulnerability, and preventable ED or hospitalization risk.
+This timeline visualization is especially valuable in older adult care because physicians often need to reconstruct a story across multimorbidity, chronic disease burden, fragmented care settings, medications and adherence, care gaps, post-discharge vulnerability, and preventable ED or hospitalization risk. I reflected these challenges in the mock case through an older adult patient scenario with multiple chronic conditions, recent ED/hospital use, missed cardiology follow-up, medication reconciliation concern, worsening labs/vitals, and Clinical Signals tied to supporting evidence.
 
-## 3. Synthetic Patient Scenario
+## 3. Case Design
 
 The mock patient is Maria Thompson, an older Medicare Advantage patient with CHF, type 2 diabetes, CKD stage 3, and hypertension.
 
